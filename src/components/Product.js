@@ -16,7 +16,7 @@ const Product = ({ name, id, imgURL, price }) => {
     <div className="card">
       <img src={imgURL} alt={name} />
       <h2>{name}</h2>
-      <p>$ {price}</p>
+      <p>Rs. {price}</p>
       <button onClick={addToCart}>Add to cart</button>
     </div>
   );

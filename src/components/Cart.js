@@ -6,7 +6,7 @@ const Cart = () => {
   const quantity = useSelector((state)=>state.cart.totalQuantity);
   const dispath=useDispatch();
   const showCart=()=>{
-    dispath(cartActions.setShowCart())
+    dispath(cartActions.setShowCart(88889))
   }
   return (
     <div className="cartIcon">

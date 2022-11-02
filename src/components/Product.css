@@ -14,7 +14,10 @@ button {
   color: white;
   border: none;
   cursor: pointer;
-  background-color: rgba(21, 26, 42, 0.787);
+  background-color: rgba(30, 100, 70, 1);
+}
+button:hover{
+  background-color : rgba(30, 00, 10, 1)
 }
 .card {
   width: 250px;

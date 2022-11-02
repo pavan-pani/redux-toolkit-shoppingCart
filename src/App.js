@@ -11,8 +11,9 @@ function App() {
   console.log(cartItems);
   return (
     <div className="App">
-      {!isLoggedIn && <Auth />}
-      {isLoggedIn && <Layout />}
+      {/* {!isLoggedIn && <Auth />}
+      {isLoggedIn && <Layout />} */}
+      <Layout />
     </div>
   );
 }

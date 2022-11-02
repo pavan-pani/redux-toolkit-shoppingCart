@@ -23,18 +23,22 @@ li {
 .cartItem {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  padding-top: 20px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 20px;
   font-size: 20px;
   font-weight: bold;
-  background: #2f3c7e;
+  background: #2000ae;
   color: #fbeaeb;
 }
 .cart-actions {
   color: white;
+  /* padding-top: 0px; */
   font-size: 20px;
   width: 50px;
   border: none;
+  border-radius:10px;
   background: rgb(10, 7, 24);
 }

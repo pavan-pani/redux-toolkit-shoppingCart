@@ -23,9 +23,9 @@ const Header = () => {
           <li>
             <Cart />
           </li>
-          <li>
+          {/* <li>
             <button className="logout-btn" onClick={logout}>Logout</button>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
